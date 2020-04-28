@@ -59,13 +59,14 @@ html{
 	    display: inline-block;
 	    a{
 		text-transform: uppercase;
-		color: $black;
-		font-size: rem(26px);
+		color: #fff;
+		font-size: rem(21px);
 	    }
 	    &:hover,
 		&.active{
 		a{
-		    color: $blue;
+		    color: #fff;
+		    font-weight: 500;
 		}
 	    }
 	}
