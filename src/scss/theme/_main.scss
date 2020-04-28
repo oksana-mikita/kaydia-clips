@@ -1,0 +1,382 @@
+html{
+    font-size: 16px;
+}
+.bg-green-1{
+    background-color: #00a8ec;
+    color: #fff;
+}
+.bg-green-2{
+    background-color: #4cc0ee;
+    color: #fff;
+}
+.bg-green-3{
+    background-color: #00a3d2;
+    color: #fff;
+}
+.mb-0{
+    margin-bottom: 0!important;
+}
+.mb-1{
+    margin-bottom: 1rem!important;
+}
+.mb-2{
+    margin-bottom: 2rem!important;
+}
+.mb-3{
+    margin-bottom: 3rem!important;
+}
+.my-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-center{
+    text-align: center;
+}
+.site-header{
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+
+    .inner-wrap{
+	max-width: 1700px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    }
+    .nav{
+	ul{
+	    list-style: none;
+	    padding: 0;
+	    margin: 0;
+	}
+	li{
+	    display: inline-block;
+	    a{
+		text-transform: uppercase;
+		color: $black;
+		font-size: rem(26px);
+	    }
+	    &:hover,
+		&.active{
+		a{
+		    color: $blue;
+		}
+	    }
+	}
+	li+li{
+	    margin-left: 7px;
+	}
+    }
+}
+.banner{
+}
+.content-section{
+    padding: 2rem 0;
+}
+.blue-rounded{
+    padding-top: rem(70px);
+    padding-bottom: rem(70px);
+    background-color: #e8f7fd;
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: rem(50px);
+    .col-content{
+
+    }
+    .sub-heading{
+	margin-bottom: 0;
+	color: #000;
+	text-transform: uppercase;
+    }
+    h2{
+	line-height: 1;
+    }
+    img{
+	margin-top: 2rem;
+    }
+}
+.benefits{
+    background-image: url(../img/old/benefits-bg-sm.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin-top: 2rem;
+    .row{
+	justify-content: space-around;
+    }
+}
+.benefit-box{
+    max-width: rem(340px);
+    flex: 0 0 100%;
+    border-radius: 9px;
+    margin: 0 15px;
+    padding: rem(40px 22px);
+    text-align: center;
+    margin-bottom:2rem;
+    h5{
+	margin-top: 1.5rem;
+	color: #fff;
+	text-transform: uppercase;
+    }
+    p{
+	font-size: rem(17px);
+    }
+}
+.shoose-us{
+    background-color: #e2f9fe;
+    background-image: url(../img/old/shoose-us-sm.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: #000000;
+    h4{
+
+    }
+    .row{
+	justify-content: space-between;
+	align-items: center;
+    }
+    .content{
+	max-width: rem(510px);
+    }
+    img{
+	border-radius: rem(0px 50px);
+    }
+    .reverse{
+	img{
+	    border-radius: rem(50px 0);
+	}
+    }
+}
+.reviews{
+    background: url(../img/old/reviews-bg.png) 0 0 repeat;
+    position: relative;
+    padding: 3rem 0 0;
+    &:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: rem(40px 33px 0 33px);
+	border-color: #ffffff transparent transparent transparent;
+
+    }
+    .row{
+	justify-content: space-around;
+    }
+    h2{
+	color: #fff;
+	margin-bottom: 5rem;
+    }
+}
+.review-box{
+    max-width: rem(340px);
+    flex: 0 0 100%;
+    margin: 0 15px;
+    padding: rem(80px 30px 40px 30px);
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 6px 0 rgba(98, 98, 98, 0.17);
+    position: relative;
+    margin-bottom: 4rem;
+    .avatar{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: inline-block;
+	border-radius: 50%;
+	border: 2px solid #f0f0f0;
+	background-color: #fff;
+	box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.72);
+	img{
+	    border-radius: 50%;
+	    width: rem(115px);
+	    border: 1px solid #fff;
+	}
+    }
+    h6{
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 0;
+    }
+    p{
+	margin: 2rem 0 0;
+	font-size: rem(18px);
+	line-height: 1.33;
+	color: #3b3b3b;
+	span{
+	    color: $green;
+	    font-weight: 700;
+	    font-size: rem(36px);
+	    line-height: .5;
+	    font-family: "Montserrat";
+	    font-weight: 700;
+	}
+    }
+}
+.watch-now{
+    padding: 2rem 0 3rem;
+    color: #3b3b3b;
+    background-image: url(../img/old/watch-now-sm.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    .social{
+	list-style: none;
+	padding-left: 0;
+	margin-top: 2rem;
+	li{
+	    display: inline-block;
+	}
+	li+li{
+	    margin-left: rem(13px);
+	}
+	svg{
+	    fill: #2ea2d0;
+	}
+	a:hover{
+	    svg{
+		fill: $blue;
+	    }
+	}
+    }
+}
+.video-box{
+    position: relative;
+    margin-bottom: 2rem;
+    .play-btn{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	&:hover{
+	    box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.42);
+	}
+    }
+}
+.section-stages{
+    h2{
+	margin-bottom: 4rem;
+    }
+}
+.stages{
+    background: #4cc0ee;
+    .col-stage{
+	flex: 0 0 100%;
+    }
+}
+.stage{
+    max-width: rem(275px);
+    margin: 0 15px;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    padding: rem(80px 0 40px 0);
+    h5{
+	color: #fff;
+	text-transform: uppercase;
+    }
+    p{
+	font-size: rem(18px);
+	line-height: 1.33;
+    }
+    .num{
+	text-align: center;
+	width: rem(85px);
+	height: rem(85px);
+	color: $green;
+	background-color: #fff;
+	border: 2px solid $green;
+	border-radius: 50%;
+	font-size: rem(48px);
+	line-height: rem(81px);
+	font-weight: 500;
+	box-shadow: 0 0 0 5px #fff;
+
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    }
+}
+.discover{
+    padding: rem(50px 50px 0);
+    background-color: #edf9fd;
+    .sub-heading{
+	margin-bottom: 0;
+	font-size: rem(32px);
+    }
+    h2{
+	line-height: .7;
+	margin-bottom: 2rem;
+    }
+}
+.buy{
+    h2{
+	span{
+	    font-weight: 400;
+	}
+	line-height: .8;
+    }
+    h3{
+	color: $green;
+	line-height: .8;
+    }
+}
+.site-footer{
+    color: #fff;
+    background-color: #000000;
+    font-size: rem(17px);
+    .container{
+	max-width: 1700px;
+    }
+    .row{
+	align-items: center;
+	justify-content: space-between;
+	> div{
+	    padding: rem(22px 0);
+	    margin: 0 auto;
+	}
+    }
+    .contacts{
+	.contact-col{
+	    max-width: 280px;
+	    padding: 0 10px;
+	}
+    }
+    .contact{
+	padding-left: rem(35px);
+	position: relative;
+	margin: .3rem 0;
+	.icon{
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    width: 23px;
+	}
+    }
+    .footer-menu{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	a{
+	    color: #888888;
+	    &:hover{
+		color: #fff;
+	    }
+	}
+    }
+}

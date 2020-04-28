@@ -1,0 +1,36 @@
+$gray-1: #3b3b3b;
+$gray-2: #414143;
+$black: #000000;
+
+$blue: #016aa7;
+$green: #2ec1a7;
+
+// Fonts
+$font-family-base: 'Roboto', sans-serif;
+
+$headings-font-fdamily: $font-family-base;
+$font-size-base: 1rem;
+$font-weight-base: 300;
+$line-height-base: 1.5;
+
+// Typography
+
+$paragraph-margin-bottom: 1rem;
+
+$link-color: $blue;
+$link-hover-color: $green;
+
+// Headings
+$headings-margin-bottom: 1rem;
+$headings-font-weight: 400;
+$headings-line-height: 1.1;
+
+$h1-font-size: rem(48px); //
+$h2-font-size: rem(60px); //
+$h3-font-size: rem(42px);
+$h4-font-size: rem(36px);
+$h5-font-size: rem(24px);
+$h6-font-size: rem(20px);
+
+// Forms
+$label-margin-bottom: 1vw;
