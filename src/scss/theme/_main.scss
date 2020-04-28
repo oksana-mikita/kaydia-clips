@@ -144,11 +144,11 @@ html{
     padding-top: rem(70px);
     padding-bottom: rem(70px);
     background-color: #edfbf9;
-    .col-content{
-
+    .row{
+	justify-content: center;
     }
     .sub-heading{
-	margin-bottom: 0;
+	margin-bottom: .5rem;
 	color: #000;
 	text-transform: uppercase;
     }

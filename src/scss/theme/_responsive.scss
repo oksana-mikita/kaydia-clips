@@ -122,15 +122,12 @@
 	    max-width: 28%;
 	}
 	.col-content{
-	    flex: 0 0 47%;
-	    max-width: 47%;
+	    flex: 0 0 48%;
+	    max-width: 48%;
 	}
 	.col-image{
-	    flex: 0 0 25%;
-	    max-width: 25%;
-	}
-	p{
-	    margin-bottom: 0;
+	    flex: 0 0 24%;
+	    max-width: 24%;
 	}
 	.sub-heading{
 	    font-size: rem(42px);
@@ -253,6 +250,8 @@
 	}
     }
 }
+
+/******************/
 @media (max-width: 413px){
     .banner .inner {
 	min-height: 455px;
