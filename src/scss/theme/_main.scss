@@ -29,6 +29,9 @@ html{
     margin-left: auto;
     margin-right: auto;
 }
+.font-weight-normal{
+    font-weight: 400;
+}
 .h2, h2 {
     font-weight: 400;
     color: $green;
@@ -142,7 +145,7 @@ html{
 }
 .blue-info{
     padding-top: rem(70px);
-    padding-bottom: rem(70px);
+    padding-bottom: rem(30px);
     background-color: #edfbf9;
     .row{
 	justify-content: center;
@@ -157,6 +160,16 @@ html{
     }
     img{
 	margin-top: 2rem;
+    }
+}
+.styled{
+    list-style: none;
+    padding-left: 0;
+    li{
+	padding-left: rem(40px);
+	background: url(../img/list.svg) 0 4px no-repeat;
+	background-size: 1rem;
+	margin-bottom: 1rem;
     }
 }
 /******************/
