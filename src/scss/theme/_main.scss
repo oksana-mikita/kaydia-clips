@@ -40,7 +40,10 @@ html{
     top: 0;
     width: 100%;
     padding: 15px;
-
+    .logo{
+	width: rem(145px);
+	margin-top: rem(-18px);
+    }
     .inner-wrap{
 	max-width: 1700px;
 	margin-left: auto;
@@ -78,6 +81,12 @@ html{
 .banner{
     color: #fff;
     text-align: center;
+    background: url(../img/main-banner-sm.jpg) top center no-repeat;
+    background-size: cover;
+    .inner{
+	min-height: 538px;
+	padding-bottom: 8rem;
+    }
     .inner{
 	display: flex;
 	flex-direction: column;
@@ -102,7 +111,8 @@ html{
 	}
     }
     .description{
-	font-size: rem(24px);
+	padding: 0 .5rem;
+	font-size: rem(22px);
 	line-height: 1.5;
 	font-weight: 400;
 	strong{
