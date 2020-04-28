@@ -43,6 +43,9 @@
     .h2, h2 {
 	font-size: 2.85714rem;
     }
+    .h2, h2 {
+	font-size: 1.71429rem;
+    }
     .container {
 	max-width: 720px;
     }
@@ -59,9 +62,7 @@
 	margin-bottom: 2rem;
     }
     .shoose-us{
-	.row+.row{
-	    margin-top: rem(115px);
-	}
+	padding-top: 5rem;
     }
     /****************/
     .buy{
