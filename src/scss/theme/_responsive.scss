@@ -51,6 +51,10 @@
     .content-section {
 	padding: 3rem 0;
     }
+    .sub-heading {
+	font-size: rem(30px);
+	margin-bottom: 2rem;
+    }
     /****************/
     .buy{
 	h2{
@@ -59,10 +63,6 @@
 	h3{
 	    font-size: rem(48px);
 	}
-    }
-    .sub-heading {
-	font-size: 1.61905rem;
-	margin-bottom: 2rem;
     }
     .benefits{
 	background-image: url(../img/old/benefits-bg-md.png);
@@ -116,9 +116,7 @@
 	    }
 	}
     }
-    /*******************/
-    .blue-rounded{
-	border-radius: rem(200px);
+    .blue-info{
 	.col-heading{
 	    flex: 0 0 28%;
 	    max-width: 28%;
@@ -138,6 +136,7 @@
 	    font-size: rem(42px);
 	}
     }
+    /*******************/
     .benefit-box,
     .review-box{
 	flex: 0 0 30%;
