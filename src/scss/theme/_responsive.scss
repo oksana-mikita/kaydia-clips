@@ -27,6 +27,9 @@
 	    font-size: rem(24px);
 	}
     }
+    .reviews{
+	background-image: url(../img/reviews-md.jpg);
+    }
     /********************/
     .benefit-box,
     .review-box{
@@ -72,10 +75,6 @@
 	h3{
 	    font-size: rem(48px);
 	}
-    }
-    .watch-now{
-	background-image: url(../img/old/watch-now-md.png);
-	padding: rem(80px 0 100px);
     }
     .reverse{
 	flex-direction: row-reverse;
@@ -206,16 +205,12 @@
 	    padding-bottom: 8rem;
 	}
     }
-    .shoose-us{
+    .reviews{
+	background-image: url(../img/reviews-lg.jpg);
     }
-
     /*******************************/
 
 
-    .watch-now{
-	background-image: url(../img/old/watch-now.png);
-	padding: rem(125px 0 245px);
-    }
     .discover{
 	background: url(../img/old/discover.png) right center no-repeat;
 	p{

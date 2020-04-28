@@ -154,6 +154,7 @@ html{
     padding-top: rem(70px);
     padding-bottom: rem(30px);
     background:#edfbf9 url(../img/bg-2.png) right 50% no-repeat;
+    background-size: rem(177px 354px);
     .row{
 	justify-content: center;
     }
@@ -228,9 +229,8 @@ html{
 	margin: 1rem 0;
     }
 }
-/******************/
 .reviews{
-    background: url(../img/old/reviews-bg.png) 0 0 repeat;
+    background: url(../img/reviews-sm.jpg) 0 0 repeat;
     position: relative;
     padding: 3rem 0 0;
     .row{
@@ -268,32 +268,26 @@ html{
 	}
     }
     h6{
-	font-weight: 600;
+	font-weight: 500;
 	text-transform: uppercase;
 	margin-bottom: 0;
+	color: $green;
     }
     p{
 	margin: 2rem 0 0;
 	font-size: rem(18px);
 	line-height: 1.33;
-	color: #3b3b3b;
+	font-weight: 400;
 	span{
 	    color: $green;
-	    font-weight: 700;
 	    font-size: rem(36px);
 	    line-height: .5;
-	    font-family: "Montserrat";
 	    font-weight: 700;
 	}
     }
 }
 .watch-now{
     padding: 2rem 0 3rem;
-    color: #3b3b3b;
-    background-image: url(../img/old/watch-now-sm.png);
-    background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
     .social{
 	list-style: none;
 	padding-left: 0;
@@ -328,6 +322,7 @@ html{
 	}
     }
 }
+/******************/
 .section-stages{
     h2{
 	margin-bottom: 4rem;
