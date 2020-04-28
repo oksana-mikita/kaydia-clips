@@ -287,7 +287,8 @@ html{
     }
 }
 .watch-now{
-    padding: 2rem 0 3rem;
+    background: url(../img/bg-4.jpg) right bottom no-repeat;
+    background-size: rem(233px 285px);
     .social{
 	list-style: none;
 	padding-left: 0;
@@ -299,11 +300,11 @@ html{
 	    margin-left: rem(13px);
 	}
 	svg{
-	    fill: #2ea2d0;
+	    fill: $green;
 	}
 	a:hover{
 	    svg{
-		fill: $blue;
+		fill: $green;
 	    }
 	}
     }
@@ -322,14 +323,13 @@ html{
 	}
     }
 }
-/******************/
 .section-stages{
     h2{
 	margin-bottom: 4rem;
     }
 }
 .stages{
-    background: #4cc0ee;
+    background: $gray-2;
     .col-stage{
 	flex: 0 0 100%;
     }
@@ -342,7 +342,7 @@ html{
     color: #fff;
     padding: rem(80px 0 40px 0);
     h5{
-	color: #fff;
+	color: $green;
 	text-transform: uppercase;
     }
     p{
@@ -357,9 +357,9 @@ html{
 	background-color: #fff;
 	border: 2px solid $green;
 	border-radius: 50%;
-	font-size: rem(48px);
+	font-size: rem(36px);
 	line-height: rem(81px);
-	font-weight: 500;
+	font-weight: 700;
 	box-shadow: 0 0 0 5px #fff;
 
 	position: absolute;
@@ -368,6 +368,7 @@ html{
 	transform: translate(-50%, -50%);
     }
 }
+/******************/
 .discover{
     padding: rem(50px 50px 0);
     background-color: #edf9fd;

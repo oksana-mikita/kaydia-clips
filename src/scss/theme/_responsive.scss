@@ -46,7 +46,7 @@
     .h2, h2 {
 	font-size: 2.85714rem;
     }
-    .h2, h2 {
+    .h4, h4 {
 	font-size: 1.71429rem;
     }
     .container {
@@ -67,15 +67,6 @@
     .shoose-us{
 	padding-top: 5rem;
     }
-    /****************/
-    .buy{
-	h2{
-	    font-size: rem(72px);
-	}
-	h3{
-	    font-size: rem(48px);
-	}
-    }
     .reverse{
 	flex-direction: row-reverse;
     }
@@ -90,6 +81,15 @@
 	.stage{
 	    margin-left: auto;
 	    margin-right: auto;
+	}
+    }
+    /****************/
+    .buy{
+	h2{
+	    font-size: rem(72px);
+	}
+	h3{
+	    font-size: rem(48px);
 	}
     }
 }
@@ -130,11 +130,6 @@
 	    font-size: rem(42px);
 	}
     }
-    /*******************/
-    .benefit-box,
-    .review-box{
-	flex: 0 0 30%;
-    }
     .col-stage{
 	flex: 0 0 33.3333%;
 	max-width: 33.3333%;
@@ -148,7 +143,7 @@
 	    content: '';
 	    width: 1px;
 	    height: 55%;
-	    background-color: #83d2ff;
+	    background-color: $green;
 	}
 	&:before{
 	    left: 0;
@@ -165,6 +160,11 @@
 	.stage{
 	    margin-left: auto;
 	}
+    }
+    /*******************/
+    .benefit-box,
+    .review-box{
+	flex: 0 0 30%;
     }
     .discover{
 	max-width: 1700px;
