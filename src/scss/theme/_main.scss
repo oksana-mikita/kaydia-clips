@@ -2,7 +2,7 @@ html{
     font-size: 16px;
 }
 .bg-green-1{
-    background-color: #00a8ec;
+    background-color: #2ec1a7;
     color: #fff;
 }
 .bg-green-2{
@@ -152,7 +152,6 @@ html{
     }
     .sub-heading{
 	margin-bottom: .5rem;
-	color: #000;
 	text-transform: uppercase;
     }
     h2{
@@ -172,13 +171,7 @@ html{
 	margin-bottom: 1rem;
     }
 }
-/******************/
 .benefits{
-    background-image: url(../img/old/benefits-bg-sm.png);
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    margin-top: 2rem;
     .row{
 	justify-content: space-around;
     }
@@ -186,13 +179,13 @@ html{
 .benefit-box{
     max-width: rem(340px);
     flex: 0 0 100%;
-    border-radius: 9px;
+    border-radius: 0px 50px 0px 0px;
     margin: 0 15px;
-    padding: rem(40px 22px);
+    padding: rem(40px 22px 60px);
     text-align: center;
     margin-bottom:2rem;
     h5{
-	margin-top: 1.5rem;
+	margin-top: 2.5rem;
 	color: #fff;
 	text-transform: uppercase;
     }
@@ -200,6 +193,7 @@ html{
 	font-size: rem(17px);
     }
 }
+/******************/
 .shoose-us{
     background-color: #e2f9fe;
     background-image: url(../img/old/shoose-us-sm.png);

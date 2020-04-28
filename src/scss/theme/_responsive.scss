@@ -40,6 +40,9 @@
     html{
 	font-size: 17px;
     }
+    .h2, h2 {
+	font-size: 2.85714rem;
+    }
     .container {
 	max-width: 720px;
     }
@@ -55,6 +58,8 @@
 	font-size: rem(30px);
 	margin-bottom: 2rem;
     }
+    .benefits{
+    }
     /****************/
     .buy{
 	h2{
@@ -63,11 +68,6 @@
 	h3{
 	    font-size: rem(48px);
 	}
-    }
-    .benefits{
-	background-image: url(../img/old/benefits-bg-md.png);
-	margin-top: rem(100px);
-	padding-top: rem(150px);
     }
     .shoose-us{
 	background-image: url(../img/old/shoose-us-md.png);
@@ -208,13 +208,12 @@
 	    padding-bottom: 8rem;
 	}
     }
+    .benefits{
+    }
 
     /*******************************/
 
 
-    .benefits{
-	background-image: url(../img/old/benefits-bg.png);
-    }
     .shoose-us{
 	background-image: url(../img/old/shoose-us.png);
 	padding: 0 0 4rem;
