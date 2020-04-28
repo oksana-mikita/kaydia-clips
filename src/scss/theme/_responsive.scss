@@ -30,11 +30,11 @@
     .reviews{
 	background-image: url(../img/reviews-md.jpg);
     }
-    /********************/
     .benefit-box,
     .review-box{
 	flex: 0 0 50%;
     }
+    /********************/
     .site-footer .contacts {
 	display: flex;
     }
@@ -161,19 +161,14 @@
 	    margin-left: auto;
 	}
     }
-    /*******************/
-    .benefit-box,
-    .review-box{
-	flex: 0 0 30%;
-    }
     .discover{
 	max-width: 1700px;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
-	height: 580px;
+	height: 370px;
 	padding: rem(0 110px);
-	background: url(../img/old/discover-md.png) right center no-repeat;
+	background: url(../img/discover-lg.jpg) right center no-repeat;
 	background-size: cover;
 	.image{
 	    display: none;
@@ -190,6 +185,11 @@
 	    max-width: 24rem;
 	}
     }
+    .benefit-box,
+    .review-box{
+	flex: 0 0 30%;
+    }
+    /*******************/
 }
 @media (min-width: 1280px){
     html{
@@ -208,15 +208,15 @@
     .reviews{
 	background-image: url(../img/reviews-lg.jpg);
     }
-    /*******************************/
-
-
     .discover{
-	background: url(../img/old/discover.png) right center no-repeat;
+	height: 519px;
 	p{
 	    max-width: rem(715px);
 	}
     }
+    /*******************************/
+
+
 }
 @media (max-width: 767px){
     .col-stage{
