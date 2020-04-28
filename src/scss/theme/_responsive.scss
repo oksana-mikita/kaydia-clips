@@ -104,6 +104,7 @@
 	    }
 	}
     }
+    /*******************/
     .blue-rounded{
 	border-radius: rem(200px);
 	.col-heading{
@@ -193,8 +194,11 @@
 	max-width: 1200px;
     }
     .banner{
-	min-height: rem(718px);
 	background: url(../img/main-banner-lg.jpg) top center no-repeat;
+	.inner{
+	    min-height: rem(718px);
+	    padding-bottom: 8rem;
+	}
     }
 
     /*******************************/
