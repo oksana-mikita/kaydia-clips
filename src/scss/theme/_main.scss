@@ -6,12 +6,19 @@ html{
     color: #fff;
 }
 .bg-green-2{
-    background-color: #4cc0ee;
-    color: #fff;
+    background-color: #edfbf9;
 }
 .bg-green-3{
-    background-color: #00a3d2;
-    color: #fff;
+    background-color: #e3f7f4;
+    &.shoose-us:before{
+	border-color: #edfbf9 transparent transparent transparent;
+    }
+}
+.bg-green-4{
+    background-color: #d7f5f1;
+    &.shoose-us:before{
+	border-color: #e3f7f4 transparent transparent transparent;
+    }
 }
 .mb-0{
     margin-bottom: 0!important;
@@ -193,14 +200,22 @@ html{
 	font-size: rem(17px);
     }
 }
-/******************/
 .shoose-us{
-    background-color: #e2f9fe;
-    background-image: url(../img/old/shoose-us-sm.png);
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    color: #000000;
+    position: relative;
+    color: $gray-2;
+    &:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: rem(40px 33px 0 33px);
+	border-color: #ffffff transparent transparent transparent;
+
+    }
     h4{
 
     }
@@ -220,23 +235,11 @@ html{
 	}
     }
 }
+/******************/
 .reviews{
     background: url(../img/old/reviews-bg.png) 0 0 repeat;
     position: relative;
     padding: 3rem 0 0;
-    &:before{
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: rem(40px 33px 0 33px);
-	border-color: #ffffff transparent transparent transparent;
-
-    }
     .row{
 	justify-content: space-around;
     }

@@ -58,7 +58,10 @@
 	font-size: rem(30px);
 	margin-bottom: 2rem;
     }
-    .benefits{
+    .shoose-us{
+	.row+.row{
+	    margin-top: rem(115px);
+	}
     }
     /****************/
     .buy{
@@ -67,12 +70,6 @@
 	}
 	h3{
 	    font-size: rem(48px);
-	}
-    }
-    .shoose-us{
-	background-image: url(../img/old/shoose-us-md.png);
-	.row+.row{
-	    margin-top: rem(115px);
 	}
     }
     .watch-now{
@@ -208,16 +205,12 @@
 	    padding-bottom: 8rem;
 	}
     }
-    .benefits{
+    .shoose-us{
     }
 
     /*******************************/
 
 
-    .shoose-us{
-	background-image: url(../img/old/shoose-us.png);
-	padding: 0 0 4rem;
-    }
     .watch-now{
 	background-image: url(../img/old/watch-now.png);
 	padding: rem(125px 0 245px);
@@ -230,9 +223,6 @@
     }
 }
 @media (max-width: 767px){
-    .shoose-us .col-md-6{
-	margin-bottom: 1.5rem;
-    }
     .col-stage{
 	.stage{
 	    margin-left: auto;
